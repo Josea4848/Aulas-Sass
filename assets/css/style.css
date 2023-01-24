@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.btn {
+  padding: 15px;
+  width: 240px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+}
+.btn.btn-submit {
+  background: rgb(53, 53, 175);
+  color: rgb(223, 59, 59);
+}
+.btn.btn-submit:hover {
+  background: #727272;
+}
+.btn.btn-ok {
+  background: rgb(88, 211, 88);
+  color: rgb(246, 246, 98);
+}
+.btn.btn-ok:hover {
+  background: #969696;
+}
+
+/*Mixin dos botões*/
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

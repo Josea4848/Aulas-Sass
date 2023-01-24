@@ -1,0 +1,33 @@
+@mixin button-style($background, $color) {
+  background: $background;
+  color: $color;
+  &:hover {
+    background: grayscale($background);
+  }
+}
+
+.btn {
+  padding: 15px;
+  width: 240px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+
+  &.btn-submit {
+    @include button-style($my-blue, $my-red );
+  }
+
+  &.btn-ok {
+    @include button-style($my-green, $my-yellow );
+  }
+
+}
+
+
+
+/*Mixin dos botões*/
+
+
+
+
+/*# sourceMappingURL=style.css.map */
